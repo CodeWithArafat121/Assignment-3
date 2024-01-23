@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9cb5927555.js" crossorigin="anonymous"></script>
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+        .my-container{
+            width: 90%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body class="font-manrope">
+    <header>
+        <nav class="my-container mt-4 ">
+            <div class="navbar ">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost p-0 pr-3 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
+                            <li class="hover:text-red-500 hover:font-bold"><a class="hover:bg-white">Home</a></li>
+                            <li class="hover:text-red-500 hover:font-bold"><a class="hover:bg-white">About</a></li>
+                            <li class="hover:text-red-500 hover:font-bold"><a class="hover:bg-white">Pages</a></li>
+                            <li class="hover:text-red-500 hover:font-bold"><a class="hover:bg-white">Blog</a></li>
+                            <li class="hover:text-red-500 hover:font-bold"><a class="hover:bg-white">Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn-ghost text-2xl md:text-4xl text-black font-extrabold p-0">Hockey<span
+                            class="text-red-500">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-base text-neutral-700 font-normal ">
+                        <li class="hover:text-red-500 hover:font-bold"><a class="hover:bg-white">Home</a></li>
+                        <li class="hover:text-red-500 hover:font-bold"><a class="hover:bg-white">About</a></li>
+                        <li class="hover:text-red-500 hover:font-bold"><a class="hover:bg-white">Pages</a></li>
+                        <li class="hover:text-red-500 hover:font-bold"><a class="hover:bg-white">Blog</a></li>
+                        <li class="hover:text-red-500 hover:font-bold"><a class="hover:bg-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end space-x-6">
+                    <img class="hidden md:inline " src="./search.svg" alt="">
+                    <a class="btn text-xl text-white font-bold bg-red-500">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="my-container mt-8 md:mt-14 lg:relative">
+            <div class="carousel w-full rounded-2xl lg:relative  ">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./Images/1.png" class=" w-screen object-cover" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./Images/2.png" class=" w-screen object-cover" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="./Images/3.png" class=" w-screen object-cover" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="./Images/4.png" class=" w-screen object-cover" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+            <div class=" lg:w-[45%]  bg-black mt-4 p-4 md:p-8 rounded-2xl lg:absolute lg:right-8 lg:bottom-8 ">
+                <h2 class="text-[18px] md:text-2xl text-white font-extrabold">Meet all the heroes from the field</h2>
+                <p class="text-[14px] md:text-base text-white font-medium mt-2 md:mt-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+</body>
+
+</html>
