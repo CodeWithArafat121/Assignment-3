@@ -19,6 +19,7 @@
 
         .my-container {
             width: 90%;
+            max-width: 1200px;
             margin: 0 auto;
         }
     </style>
@@ -27,8 +28,8 @@
 <body class="font-manrope">
     <header class="my-container pb-10 lg:pb-24 border-0 border-b-2 border-dashed border-[#13131833]">
         <nav class=" mt-4 ">
-            <div class="navbar ">
-                <div class="navbar-start">
+            <div class="navbar justify-between">
+                <div class="">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost p-0 pr-3 lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
@@ -48,7 +49,7 @@
                     <a class="btn-ghost text-2xl md:text-4xl text-black font-extrabold p-0">Hockey<span
                             class="text-red-500">’</span>s</a>
                 </div>
-                <div class="navbar-center hidden lg:flex">
+                <div class=" hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 text-base text-neutral-700 font-normal ">
                         <li class="hover:text-red-500 hover:font-bold"><a class="hover:bg-white">Home</a></li>
                         <li class="hover:text-red-500 hover:font-bold"><a class="hover:bg-white">About</a></li>
@@ -57,7 +58,7 @@
                         <li class="hover:text-red-500 hover:font-bold"><a class="hover:bg-white">Contact</a></li>
                     </ul>
                 </div>
-                <div class="navbar-end space-x-6">
+                <div class=" space-x-6">
                     <img class="hidden md:inline " src="./search.svg" alt="">
                     <a class="btn text-xl text-white font-bold bg-red-500">Get Ticket</a>
                 </div>
@@ -103,23 +104,24 @@
         </div>
     </header>
 
-    <main>      
-        <section class="my-container mt-8">
+    <main>
+        <section class="my-container mt-6 lg:mt-8">
             <div class="lg:w-[600px] mx-auto text-center space-y-6 mb-8">
                 <h2 class="text-2xl lg:text-4xl text-black font-extrabold">Professional Hockeys Club</h2>
                 <p class="text-base text-neutral-700 font-medium">Dit amet consectetur. Condimentum dignissim adipiscing
                     aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
             </div>
-            <div class="flex flex-col md:flex-wrap md:flex-row lg:flex-nowrap gap-8 justify-center items-center pt-6 lg:pt-12 border-0 border-y-2 pb-10 lg:pb-24 border-dashed border-[#13131833]">
-                
+            <div
+                class="flex flex-col md:flex-wrap md:flex-row lg:flex-nowrap gap-8 justify-center items-center pt-6 lg:pt-12 border-0 border-y-2 pb-10 lg:pb-24 border-dashed border-[#13131833]">
+
                 <div>
                     <div class="relative w-[302px]">
                         <div class="radial-progress text-[#e7e7e8] left-[65px] "
                             style="--value:100; --size:10rem; --thickness: 1rem;" role="progressbar">
                         </div>
                         <div class="radial-progress  absolute right-[77px]  rotate-[130deg] text-red-500 "
-                            style="--value:87; --size:10rem; --thickness: 1rem;" role="progressbar"><span
-                                class="-rotate-[130deg] text-3xl text-black font-extrabold">87%</span>
+                            style="--value:60; --size:10rem; --thickness: 1rem;" role="progressbar"><span
+                                class="-rotate-[130deg] text-3xl text-black font-extrabold">60%</span>
                         </div>
                     </div>
 
@@ -135,8 +137,8 @@
                             style="--value:100; --size:10rem; --thickness: 1rem;" role="progressbar">
                         </div>
                         <div class="radial-progress  absolute right-[77px]  rotate-[130deg] text-green-400 "
-                            style="--value:87; --size:10rem; --thickness: 1rem;" role="progressbar"><span
-                                class="-rotate-[130deg] text-3xl text-black font-extrabold">87%</span>
+                            style="--value:70; --size:10rem; --thickness: 1rem;" role="progressbar"><span
+                                class="-rotate-[130deg] text-3xl text-black font-extrabold">70%</span>
                         </div>
                     </div>
 
@@ -149,11 +151,11 @@
                 <div>
                     <div class="relative w-[302px]">
                         <div class="radial-progress text-[#e7e7e8] left-[65px] "
-                            style="--value:100; --size:10rem; --thickness: 1rem;" role="progressbar">
+                            style="--value:85; --size:10rem; --thickness: 1rem;" role="progressbar">
                         </div>
                         <div class="radial-progress  absolute right-[77px]  rotate-[130deg] text-yellow-500 "
                             style="--value:87; --size:10rem; --thickness: 1rem;" role="progressbar"><span
-                                class="-rotate-[130deg] text-3xl text-black font-extrabold">87%</span>
+                                class="-rotate-[130deg] text-3xl text-black font-extrabold">85%</span>
                         </div>
                     </div>
 
@@ -169,8 +171,8 @@
                             style="--value:100; --size:10rem; --thickness: 1rem;" role="progressbar">
                         </div>
                         <div class="radial-progress  absolute right-[77px]  rotate-[130deg] text-sky-400 "
-                            style="--value:87; --size:10rem; --thickness: 1rem;" role="progressbar"><span
-                                class="-rotate-[130deg] text-3xl text-black font-extrabold">87%</span>
+                            style="--value:95; --size:10rem; --thickness: 1rem;" role="progressbar"><span
+                                class="-rotate-[130deg] text-3xl text-black font-extrabold">95%</span>
                         </div>
                     </div>
 
@@ -183,7 +185,43 @@
             </div>
         </section>
 
-        
+        <section class="my-container mt-6 lg:mt-8 mb-60">
+            <div class="lg:w-[600px] mx-auto text-center space-y-6 mb-8">
+                <h2 class="text-2xl lg:text-4xl text-black font-extrabold">Program Sections</h2>
+                <p class="text-base text-neutral-700 font-medium">Dit amet consectetur. Condimentum dignissim adipiscing
+                    aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            </div>
+
+            <div class="grid grid-cols-1  lg:grid-cols-12 pt-12 gap-6 border-0 border-y-2 pb-10 lg:pb-24 border-dashed border-[#13131833]">
+                <div
+                    class="bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/2.png)] bg-no-repeat bg-center bg-cover lg:col-span-6 p-6 lg:p-10 rounded-2xl">
+                    <h2 class="text-3xl text-white font-extrabold lg:mt-14 ">Junior Program</h2>
+                    <p class="md:w-[500px] text-base text-white font-medium mt-3">Dolor sit amet consectetur. Ut urna diam
+                        quis sagittis. Elit elit
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                        sed et in. </p>
+                    <button class="btn text-xl border-0 text-white font-bold bg-red-500 mt-8">Register Now!</button>
+                </div>
+                <div
+                    class="bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/3.png)] bg-no-repeat bg-center bg-cover lg:col-span-6 p-6 lg:p-10 rounded-2xl">
+                    <h2 class="text-3xl text-white font-extrabold lg:mt-14 ">Teenager Program</h2>
+                    <p class="md:w-[500px] text-base text-white font-medium mt-3">Dolor sit amet consectetur. Ut urna diam
+                        quis sagittis. Elit elit
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                        sed et in. </p>
+                    <button class="btn text-xl border-0 text-white font-bold bg-red-500 mt-8">Register Now!</button>
+                </div>
+                <div
+                    class="bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/4.png)] bg-no-repeat bg-center bg-cover lg:col-span-12 p-6 lg:p-10 rounded-2xl">
+                    <h2 class="text-3xl text-white font-extrabold lg:mt-52 ">Professional Program</h2>
+                    <p class="md:w-[500px] text-base text-white font-medium mt-3">Dolor sit amet consectetur. Ut urna diam
+                        quis sagittis. Elit elit
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                        sed et in. </p>
+                    <button class="btn text-xl border-0 text-white font-bold bg-red-500 mt-8">Register Now!</button>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
